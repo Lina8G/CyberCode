@@ -97,7 +97,7 @@ class Solution:
         return step
         """
         Q: how to reach the last energon mine with least steps
-        A: reach the farthest mine possible in each step
+        A: find the farthest reach of mines within each mines reachable range
         (Because it's bound that the last one shall be reached)
         Keep: 
         reach: farthest reach of mines within each energon mine's range,
